@@ -4,7 +4,7 @@
     justify-content: space-around;
     flex-direction: column;
     border-right: 1px solid black;
-    max-width: 12rem;
+    width: 12rem;
     height: 100vh;
     position: static;
     background: linear-gradient(90deg, rgb(0, 0, 0), rgb(78, 66, 66), rgb(0, 0, 0));
