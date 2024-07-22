@@ -3,6 +3,7 @@
     align-items: center;
     justify-content: space-around;
     border-right: 1px solid black;
+    gap: 25rem;
     width: 100vw;
     height: 15vh;
     background: linear-gradient(90deg, rgb(34, 0, 84), rgba(47, 49, 211, 0.279), rgb(34, 0, 84));
