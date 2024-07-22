@@ -1,16 +1,30 @@
 .home__contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-right: 3rem;
     height: 50vh;
     margin-left: 3rem;
+    margin-top: 5rem;
 }
 
 .home__presentacion {
     text-align: center;
+    width: 40vw;
 }
 
 .home__presentacion h1 {
     font-size: 3rem;
+    color: white;
+    padding: 50px;
 }
 
 .home__parrafo {
     font-size: 1.5rem;
+    color: white;
+    padding: 10px 50px;
+}
+
+.resalte {
+    color: rgb(20, 220, 50);
 }
