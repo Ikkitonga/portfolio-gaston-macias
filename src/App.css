@@ -5,8 +5,7 @@
 }
 
 .app {
-    display: flex;
-    align-items: center;
     position: relative;
     z-index: 1; /* Esto asegura que el contenido esté encima del fondo */
+    font-family: sans-serif;
 }
