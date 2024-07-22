@@ -5,7 +5,7 @@
     border-right: 1px solid black;
     width: 100vw;
     height: 15vh;
-    background: linear-gradient(90deg, rgb(0, 0, 0), rgb(78, 66, 66), rgb(0, 0, 0));
+    background: linear-gradient(90deg, rgb(34, 0, 84), rgba(47, 49, 211, 0.279), rgb(34, 0, 84));
 }
 
 .navbar__nombre {
@@ -35,7 +35,8 @@
 }
 
 .lista__item a:hover {
-    color: crimson;
+    /* color de prueba */
+    color: rgb(20, 220, 50); 
     cursor: pointer;
     text-decoration: underline;
 }
