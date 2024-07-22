@@ -1,12 +1,10 @@
 .navbar__contenedor {
     display: flex;
-    align-items: left;
+    align-items: center;
     justify-content: space-around;
-    flex-direction: column;
     border-right: 1px solid black;
-    width: 12rem;
-    height: 100vh;
-    position: static;
+    width: 100vw;
+    height: 15vh;
     background: linear-gradient(90deg, rgb(0, 0, 0), rgb(78, 66, 66), rgb(0, 0, 0));
 }
 
@@ -23,7 +21,7 @@
     display: flex;
     align-items: center;
     gap: 2rem;
-    flex-direction: column;
+    
     list-style-type: none;
 }
 
@@ -34,4 +32,10 @@
 .lista__item a {
     color: white;
     text-decoration: none;
+}
+
+.lista__item a:hover {
+    color: crimson;
+    cursor: pointer;
+    text-decoration: underline;
 }
