@@ -1,0 +1,35 @@
+.contenedor__habilidades__front {
+    background-color: blueviolet;
+    width: 40vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 1rem;
+    margin-right: 1rem;
+    padding: 2rem;
+    border-radius: 15px;
+}
+
+.contenedor__habilidades__front 
+.habilidad 
+.progreso {
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: #999;
+    border-radius: 6px;
+    overflow: hidden;
+    margin: 5px 0;
+}
+
+.contenedor__habilidades__front 
+.habilidad 
+.progreso::before {
+    content: "";
+    position: absolute;
+    width: var(--wth);
+    height: 100%;
+    background: var(--main-color);
+}

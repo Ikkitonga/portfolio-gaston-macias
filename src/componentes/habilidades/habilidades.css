@@ -1,0 +1,41 @@
+.seccion__habilidades {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    background: rgba(0, 0, 0, 0.098);
+    border-radius: 15px;
+    margin: 8rem 3rem;
+    padding: 3rem;
+}
+
+.contenedor__habilidades {
+    display: flex;
+    align-items: center;
+}
+
+.seccion__habilidades h2 {
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    text-decoration: underline;
+}
+
+.habilidades__front h3 {
+    margin: 2rem;
+}
+
+.habilidades__testing h3 {
+    margin: 2rem;
+}
+
+.habilidades__front, 
+.habilidades__testing {
+    color: white;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
