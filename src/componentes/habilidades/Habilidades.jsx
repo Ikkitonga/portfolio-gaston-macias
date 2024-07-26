@@ -1,6 +1,9 @@
-import HabilidadesFront from "../habilidadesFront/HabilidadesFront";
-import HabilidadesTesting from "../habilidadesTesting/HabilidadesTesting";
+
+import ListaDeHabilidadesFront from "../listaDeHabilidadesFront/ListaDeHabilidadesFront";
+import ListaDeHabilidades from "../listaDeHabilidadesTesting/ListaDeHabilidadesTesting";
 import "./habilidades.css";
+
+
 
 const Habilidades = () => {
     return <section className="seccion__habilidades">
@@ -9,15 +12,15 @@ const Habilidades = () => {
         
             <div className="habilidades__front">
                 <h3>FRONTEND</h3>
-                <div className="front">
-                    <HabilidadesFront />
+                <div>
+                    <ListaDeHabilidadesFront />
                 </div>
             </div>
 
             <div className="habilidades__testing">
                 <h3>TESTING</h3>
-                <div className="testing">
-                    <HabilidadesTesting />
+                <div>
+                    <ListaDeHabilidades />
                 </div>
             </div>
         </div>

@@ -1,51 +1,20 @@
 import "./habilidadesTesting.css";
 
-const HabilidadesTesting = () => {
+
+const HabilidadesTesting = ({ habilidad, porcentaje, icono }) => {
     return <div className="contenedor__habilidades__testing">
-        <div className="habilidad">
-            <p><span className="habilidad__titulo">Historias de usuario</span><i className="fa-solid fa-bookmark"></i></p>
-            <div className="progreso"></div>
-        </div>
-
-        <div className="habilidad">
-            <p><span className="habilidad__titulo">Casos de prueba</span><i className="fa-regular fa-bookmark"></i></p>
-            <div className="progreso"></div>
-        </div>
-
-        <div className="habilidad">
-            <p><span className="habilidad__titulo">Ejecucion de pruebas</span><i className="fa-solid fa-bookmark"></i></p>
-            <div className="progreso"></div>
-        </div>
-
-        <div className="habilidad">
-            <p><span className="habilidad__titulo">Testing de Accesibilidad</span><i className="fa-regular fa-bookmark"></i></p>
-            <div className="progreso"></div>
-        </div>
-
-        <div className="habilidad">
-            <p><span className="habilidad__titulo">JMeter</span><i className="fa-solid fa-thermometer"></i></p>
-            <div className="progreso"></div>
-        </div>
-        <div className="habilidad">
-            <p><span className="habilidad__titulo">Jira-Zephyr</span><i className="fa-brands fa-jira"></i></p>
-            <div className="progreso"></div>
-        </div>
-
-        <div className="habilidad">
-            <p><span className="habilidad__titulo">Selenium</span><i className="fa-regular fa-circle-user"></i></p>
-            <div className="progreso"></div>
-        </div>
-
-        <div className="habilidad">
-            <p><span className="habilidad__titulo">Postman</span><i className="fa-solid fa-paper-plane"></i></p>
-            <div className="progreso"></div>
-        </div>
-
-        <div className="habilidad">
-            <p><span className="habilidad__titulo">Casos de prueba</span><i className="fa-regular fa-bookmark"></i></p>
-            <div className="progreso"></div>
+        <div className="habilidad-item">
+            <div className="habilidad-info">
+                <p>{habilidad}</p>
+                <span className={icono}></span>
+            </div>
+            <div className="progress">
+                <div className="progress-bar progress-bar-striped" role="progressbar" style={{ width: {porcentaje} }} aria-valuenow={porcentaje} aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
         </div>
     </div>
 }
 
 export default HabilidadesTesting
+
+

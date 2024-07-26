@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    height: auto;
+    height: 100vh;
     background: rgba(0, 0, 0, 0.098);
     border-radius: 15px;
     margin: 8rem 3rem;
@@ -10,8 +10,8 @@
 }
 
 .contenedor__habilidades {
-    display: flex;
-    align-items: center;
+    display: grid;
+    grid-template-columns: auto auto;
 }
 
 .seccion__habilidades h2 {
@@ -21,21 +21,11 @@
     text-decoration: underline;
 }
 
-.habilidades__front h3 {
-    margin: 2rem;
-}
-
+.habilidades__front h3,
 .habilidades__testing h3 {
     margin: 2rem;
-}
-
-.habilidades__front, 
-.habilidades__testing {
+    text-align: center;
     color: white;
-    font-size: 1.5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    
+    font-weight: 500;
+    font-size: 2rem;
 }
