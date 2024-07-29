@@ -2,6 +2,7 @@
 import './App.css'
 import Background from './componentes/background/Background'
 import Educacion from './componentes/educacion/Educacion'
+import Footer from './componentes/footer/Footer'
 import Habilidades from './componentes/habilidades/Habilidades'
 import Home from './componentes/home/Home'
 import Navbar from './componentes/navbar/Navbar'
@@ -22,6 +23,10 @@ function App() {
         <div>
           <Educacion />
         </div>
+        <div>
+        <Footer />
+        </div>
+
       </section>
     </>
   )
