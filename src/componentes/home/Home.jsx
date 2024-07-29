@@ -1,7 +1,7 @@
 import "./home.css";
 
 const Home = () => {
-    return <section className="home__contenedor">
+    return <section className="home__contenedor" id="home">
         <div className="presentacion_vinculos">
             <div className="home__presentacion">
                 <h1>Hola, soy <span className="resalte">Gaston</span> y este es mi Portfolio</h1>

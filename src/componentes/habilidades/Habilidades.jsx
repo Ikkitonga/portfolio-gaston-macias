@@ -7,7 +7,7 @@ import "./habilidades.css";
 
 
 const Habilidades = () => {
-    return <section className="seccion__habilidades">
+    return <section className="seccion__habilidades" id="habilidades">
         <h2>HABILIDADES</h2>
         <div className="contenedor__habilidades">
         

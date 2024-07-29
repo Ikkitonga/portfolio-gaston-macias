@@ -9,8 +9,12 @@
     text-align: center;
     position: relative;
     left: 40rem;
-    top: 5rem;
+    top: 2rem;
     width: 45vw;
+}
+
+.home__presentacion {
+    margin-bottom: 4rem;
 }
 
 .home__presentacion h1 {
