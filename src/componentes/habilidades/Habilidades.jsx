@@ -1,6 +1,7 @@
 
 import ListaDeHabilidadesFront from "../listaDeHabilidadesFront/ListaDeHabilidadesFront";
-import ListaDeHabilidades from "../listaDeHabilidadesTesting/ListaDeHabilidadesTesting";
+import ListaDeHabilidadesTesting from "../listaDeHabilidadesTesting/ListaDeHabilidadesTesting";
+
 import "./habilidades.css";
 
 
@@ -20,7 +21,7 @@ const Habilidades = () => {
             <div className="habilidades__testing">
                 <h3>TESTING</h3>
                 <div>
-                    <ListaDeHabilidades />
+                    <ListaDeHabilidadesTesting />
                 </div>
             </div>
         </div>

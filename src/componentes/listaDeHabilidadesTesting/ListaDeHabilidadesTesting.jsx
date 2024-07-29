@@ -13,7 +13,7 @@ let habilidades = [
 ];
 
 
-const ListaDeHabilidades = () => {
+const ListaDeHabilidadesTesting = () => {
     return (
         <div className="lista_habilidades">
             {habilidades.map((item, index) => (
@@ -29,4 +29,4 @@ const ListaDeHabilidades = () => {
     )
 }
 
-export default ListaDeHabilidades;
+export default ListaDeHabilidadesTesting;
