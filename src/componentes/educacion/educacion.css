@@ -1,0 +1,17 @@
+.seccion__educacion {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    background: rgba(0, 0, 0, 0.098);
+    border-radius: 15px;
+    margin: 8rem 3rem;
+    padding: 3rem;
+}
+
+.seccion__educacion h2 {
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    text-decoration: underline;
+}
