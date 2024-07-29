@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    height: 100vh;
+    height: auto;
     background: rgba(0, 0, 0, 0.098);
     border-radius: 15px;
     margin: 8rem 3rem;
