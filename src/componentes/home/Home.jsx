@@ -1,8 +1,8 @@
 import "./home.css";
 
 const Home = () => {
-    return <section className="home__contenedor" id="home">
-        <div className="presentacion_vinculos">
+    return <section className="seccion__home" id="home">
+        <div className="home">
             <div className="home__presentacion">
                 <h1>Hola, soy <span className="resalte">Gaston</span> y este es mi Portfolio</h1>
 
@@ -16,7 +16,7 @@ const Home = () => {
                 <a href="https://www.linkedin.com/in/gastonezequielmacias" target="_blank"><i
                     className="fa-brands fa-linkedin"></i></a>
 
-                <a href="./CURRICULUM/Gaston Ezequiel Macias.pdf" className="curriculum" target="_blank">CV para descarga</a>
+                <a href="./CURRICULUM/Gaston Ezequiel Macias.pdf" className="curriculum" target="_blank">Curriculum</a>
             </div>
         </div>
     </section>
