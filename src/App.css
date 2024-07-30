@@ -5,7 +5,16 @@
 }
 
 .app {
+    /* Esto asegura que el contenido esté encima del fondo */
     position: relative;
-    z-index: 1; /* Esto asegura que el contenido esté encima del fondo */
+    z-index: 1;
+
+    /* con esto quiero que toda la app este centrada en forma de columna */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
     font-family: sans-serif;
+    
 }
