@@ -1,6 +1,6 @@
 .home__contenedor {
     height: 70vh;
-    margin: 8rem 3rem;
+    margin: 7rem 1rem;
     background: rgba(0, 0, 0, 0.098);
     border-radius: 15px;
 }
@@ -14,16 +14,16 @@
 }
 
 .home__presentacion {
-    margin-bottom: 4rem;
+    padding-bottom: 4rem;
 }
 
 .home__presentacion h1 {
-    font-size: 3rem;
+    font-size: 2.7rem;
     color: white;
 }
 
 .home__parrafo {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: white;
 }
 
@@ -41,3 +41,4 @@
     color: rgb(20, 220, 50); 
     cursor: pointer;
 }
+
