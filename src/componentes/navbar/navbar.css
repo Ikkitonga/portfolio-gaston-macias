@@ -45,7 +45,7 @@
 
 
 
-/* media queries para equipos menores a 780px el sansung galaxy por el dobles de la pantalla */
+/* media queries para equipos menores a 780px (se tomo el iPad Mini por ser el mas pequeño) */
 
 
 @media screen and (max-width: 780px){
@@ -67,7 +67,7 @@
 
 
 
-/* media queries para equipos menores a 365px  (se tomo el iPad Mini por ser el mas pequeño) */
+/* media queries para equipos menores a 365px  (se uso el sansung galaxy S20 por el dobles de la pantalla) */
 
 @media screen and (max-width: 365px) {
     .navbar__contenedor {
