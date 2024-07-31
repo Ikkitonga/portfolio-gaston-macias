@@ -24,3 +24,14 @@ footer {
 .footer__vinculos a:hover {
     color: rgb(20, 220, 50); 
 }
+
+@media (max-width: 600px) { 
+    .footer__nombre {
+        display: none;
+    }
+
+    .footer__vinculos a {
+        justify-content: center;
+        text-align: center;
+    }
+}
