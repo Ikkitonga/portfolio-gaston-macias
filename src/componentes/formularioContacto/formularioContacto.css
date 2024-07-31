@@ -36,7 +36,7 @@
     padding: 0.75rem;
     border: 1px solid white;
     border-radius: 4px;
-    background: linear-gradient(90deg, rgb(34, 0, 84), rgba(47, 49, 211, 0.279), rgb(34, 0, 84));
+    background: rgb(16, 204, 82);
     color: #fff;
     font-size: 1rem;
     font-weight: bold;
@@ -46,5 +46,7 @@
 }
 
 .seccion__formulario button:hover {
-    background-color: #0056b3;
+    background: linear-gradient(90deg, rgb(34, 0, 84), rgba(47, 49, 211, 0.279), rgb(34, 0, 84));
 }
+
+
