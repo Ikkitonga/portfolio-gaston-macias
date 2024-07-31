@@ -1,17 +1,30 @@
 .seccion__contacto {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    height: auto;
+    /* fondo */
     background: rgba(0, 0, 0, 0.098);
+
+    /* posicionamiento y tamaño */
+    margin: 2rem 0 2rem 0;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    height: auto;
+    width: 90vw;
+    flex-direction: column;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+ 
+    /* estetica */
     border-radius: 15px;
-    margin: 8rem 3rem;
-    padding: 3rem;
 }
 
 .seccion__contacto h2 {
     color: white;
     font-size: 3rem;
     margin-bottom: 2rem;
-    text-decoration: underline;
+    margin-right: 11rem;
+    text-decoration: underline; 
+}
+
+.contenedor__formulario {
+    margin-right: 2rem;
 }

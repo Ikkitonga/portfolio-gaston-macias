@@ -1,0 +1,26 @@
+footer {
+    /* estilos */
+    background: linear-gradient(90deg, rgb(34, 0, 84), rgba(47, 49, 211, 0.279), rgb(34, 0, 84));
+
+    /* tamaño y posicionamiento */
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4rem 0 4rem;
+}
+
+.footer__nombre h2 {
+    color: white;
+}
+
+.footer__vinculos a {
+    color: white;
+    font-size: 2rem;
+    margin: 0 2rem 0 2rem;
+}
+
+.footer__vinculos a:hover {
+    color: rgb(20, 220, 50); 
+}
