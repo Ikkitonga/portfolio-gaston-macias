@@ -23,7 +23,6 @@
     display: flex;
     align-items: center;
     gap: 2rem;
-    
     list-style-type: none;
 }
 
@@ -42,3 +41,54 @@
     cursor: pointer;
     text-decoration: underline;
 }
+
+
+
+
+/* media queries para equipos menores a 780px el sansung galaxy por el dobles de la pantalla */
+
+
+@media screen and (max-width: 780px){
+    .navbar__contenedor {
+        flex-direction: column;
+        justify-content: center;
+        gap: 0.6rem;
+    }
+
+    .navbar__lista a{
+        font-size: 1.5rem;
+    }
+    
+    .navbar__lista {
+        gap: 3rem;
+    }
+
+}
+
+
+
+/* media queries para equipos menores a 365px  (se tomo el iPad Mini por ser el mas pequeño) */
+
+@media screen and (max-width: 365px) {
+    .navbar__contenedor {
+        flex-direction: column;
+        justify-content: center;
+        gap: 0.6rem;
+        height: 10vh;
+    }
+
+    .navbar__nombre h2 {
+        display: none;
+    }
+
+    .navbar__lista a{
+        font-size: 0.8rem;
+    }
+
+    .navbar__lista {
+        gap: 1rem;
+        margin-right: 2rem;
+    }
+}
+
+
