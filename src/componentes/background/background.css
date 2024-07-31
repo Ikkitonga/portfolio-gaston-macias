@@ -8,3 +8,6 @@
   background-position: center;
   z-index: -1; /* Esto asegura que el fondo esté detrás de otros contenidos */
 }
+
+/* media queries para equipos menores a 365px  (se uso el sansung galaxy S20 por el dobles de la pantalla) */
+

@@ -1,7 +1,13 @@
 import "./background.css";
 
 const Background = ({ imageUrl, children }) => {
-    return <div className="background" style={{ backgroundImage: `url(${imageUrl})` }}>
+
+    // se realizan las siguientes constantes para cambiar el fondo de pantalla para la media query de moviles
+
+    const isMobile = window.innerWidth <= 365;
+    const mobileImageUrl = "https://i.pinimg.com/736x/62/c2/30/62c230e25c6239c33d2954641b9f5467.jpg"
+
+    return <div className="background" style={{backgroundImage: `url(${isMobile ? mobileImageUrl : imageUrl})`}}>
         {children}
     </div>
 }
