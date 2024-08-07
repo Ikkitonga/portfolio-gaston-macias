@@ -1,4 +1,3 @@
-
 .seccion__home {
     /* fondo */
     background: rgba(0, 0, 0, 0.098);
@@ -45,7 +44,7 @@
     color: rgb(20, 220, 50);
 }
 
-.home__vinculos a{
+.home__vinculos a {
     margin: 2rem;
     font-size: 2rem;
     color: white;
@@ -53,6 +52,38 @@
 }
 
 .home__vinculos a:hover {
-    color: rgb(20, 220, 50); 
+    color: rgb(20, 220, 50);
     cursor: pointer;
+}
+
+
+
+
+
+/* media queries para moviles tomada desde los 430px tamaño mas grande de movile*/
+
+@media screen and (max-width: 430px) {
+    .seccion__home {
+        /* fondo */
+        background: rgba(0, 0, 0, 0.545);
+
+        /* posicionamiento y tamaño */
+        justify-content: center;
+        width: 85vw;
+    }
+
+    .home {
+        width: 75vw;
+    }
+
+    .home__presentacion h1 {
+        font-size: 1.7rem;
+        line-height: 1.2;
+    }
+
+    .home__vinculos a {
+        margin: 1rem;
+        font-size: 1.5rem;
+        padding-bottom: 1rem;
+    }
 }

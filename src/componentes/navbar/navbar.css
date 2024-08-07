@@ -1,8 +1,8 @@
 .navbar__contenedor {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    gap: 25rem;
+    justify-content: space-evenly;
+    gap: 20rem;
     width: 100vw;
     height: 15vh;
     background: linear-gradient(90deg, rgb(34, 0, 84), rgba(47, 49, 211, 0.279), rgb(34, 0, 84));
@@ -45,10 +45,10 @@
 
 
 
-/* media queries para equipos menores a 780px (se tomo el iPad Mini por ser el mas pequeño) */
+/* media queries para equipos de 800px (se tomo el iPad Mini por ser el mas pequeño con 768px y el mas grande galaxytab s7 800px)  */
 
 
-@media screen and (max-width: 780px){
+@media screen and (max-width: 800px){
     .navbar__contenedor {
         flex-direction: column;
         justify-content: center;
@@ -67,9 +67,10 @@
 
 
 
-/* media queries para equipos menores a 365px  (se uso el sansung galaxy S20 por el dobles de la pantalla) */
+/* media queries para equipos menores a 365px  (se uso el sansung galaxy S20 por el dobles de la pantalla) 
+pero el tamaño maximo se toma 430 para los telefonos moviles mas grandes*/
 
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 430px) {
     .navbar__contenedor {
         flex-direction: column;
         justify-content: center;
