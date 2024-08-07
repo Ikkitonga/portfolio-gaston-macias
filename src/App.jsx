@@ -4,7 +4,6 @@ import Background from './componentes/background/Background'
 import Contacto from './componentes/contacto/Contacto'
 import Educacion from './componentes/educacion/Educacion'
 import Footer from './componentes/footer/Footer'
-import Habilidades from './componentes/habilidades/Habilidades'
 import Home from './componentes/home/Home'
 import Navbar from './componentes/navbar/Navbar'
 
@@ -16,7 +15,7 @@ function App() {
       <section className='app'>
         <Navbar />
         <Home />
-        <Habilidades />
+        
         <Educacion />
         <Contacto />
         <Footer />
